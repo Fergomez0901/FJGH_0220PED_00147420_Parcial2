@@ -29,7 +29,8 @@ void atenderPedido()
     cout << "1) Comprar donas" << endl; 
     cout << "2) Comprar platos fuertes" << endl; 
     cout << "3) Salir" << endl; 
-    cout << "\nIngrese una opcion: ";   cin >> option; cin.ignore();
+    cout << "Ingrese una opcion: ";   cin >> option; cin.ignore();
+    cout << endl;
 
     switch(option)
     {
@@ -41,7 +42,8 @@ void atenderPedido()
                 cout << "3) Dona sabor mocca" << endl; 
                 cout << "4) Dona sabor caramelo" << endl; 
                 cout << "5) Salir" << endl; 
-                cout << "\nIngrese una opcion: "; cin >> option2; cin.ignore(); 
+                cout << "Ingrese una opcion: ";  cin >> option2; cin.ignore(); 
+                cout << endl;
 
                 switch(option2)
                 {
@@ -107,7 +109,8 @@ void atenderPedido()
                 cout << "2) Almuerzo" << endl; 
                 cout << "3) Cena" << endl;
                 cout << "4) Salir" << endl;
-                cout << "\nIngrese una opcion: "; cin >> option2; cin.ignore(); 
+                cout << "Ingrese una opcion: ";     cin >> option2; cin.ignore(); 
+                cout << endl;
 
                 switch(option2)
                 {
@@ -200,7 +203,7 @@ void cobrarPlatosFuertes()
             }
             colaPlatoFuerte.pop(); 
         }
-        cout << "Se ha obtenido una ganancia de : $" << total << " en concepto de venta de donas." << endl; 
+        cout << "Se ha obtenido una ganancia de : $" << total << " en concepto de venta de platos fuertes." << endl; 
     }
 }
 
@@ -217,7 +220,8 @@ void menu()
         cout << "2) Calcular ganancias por venta de donas (Cobrar cola de donas)" << endl; 
         cout << "3) Calcular ganancias por venta de platos fuertes (Cobrar cola de platos fuertes)" << endl; 
         cout << "4) Salir" << endl; 
-        cout << "\nIngrese una opcion: "; cin >> option; cin.ignore(); 
+        cout << "Ingrese una opcion: "; cin >> option; cin.ignore();
+        cout << endl;
 
         switch (option)
         {
